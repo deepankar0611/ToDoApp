@@ -1,0 +1,96 @@
+/* Blog Page Styling */
+.blog-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    color: white;
+}
+
+.blog-intro {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.blog-post:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.blog-post h2 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.blog-post p, .blog-post ul {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.blog-post ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.blog-post li {
+    margin-bottom: 8px;
+}
+
+.blog-footer {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+}
+
+/* Navigation Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #00f2fe;
+}
