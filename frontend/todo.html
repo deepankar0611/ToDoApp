@@ -10,10 +10,11 @@
 <body>
   <div class="wrapper">
     <div class="todo-container">
+      <h2 id="usernameDisplay" class="username"></h2> <!-- Username Display -->
       <h1 class="title">Your To-Do List</h1>
       <div class="input-box">
         <input type="text" id="todoInput" placeholder="Add a new task...">
-        <button id="addBtn" class="btn">Add Task</button>
+        <button id="addBtn" class="btn" onclick="addTodo()">Add Task</button>
       </div>
       <ul id="todoList" class="todo-list"></ul>
       <button class="logout-btn" onclick="logout()">Logout</button>
